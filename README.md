@@ -1,4 +1,4 @@
  # CV
  
  Template taken from 
-https://raw.githubusercontent.com/zachscrivena/simple-resume-cv
+https://github.com/zachscrivena/simple-resume-cv
