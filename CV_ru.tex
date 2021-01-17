@@ -12,7 +12,7 @@
 
 % See "README.md" for instructions on compiling this document.
 
-\documentclass[a4paper, MMyyyy,nonstopmode]{simpleresumecv}
+\documentclass[a4paper, MMyyyy,nonstopmode]{simpleresumecv_ru}
 % Class options:
 % a4paper, letterpaper, nonstopmode, draftmode
 % MMMyyyy, ddMMMyyyy, MMMMyyyy, ddMMMMyyyy, yyyyMMdd, yyyyMM, yyyy
@@ -22,9 +22,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % CV Info (to be customized).
-\newcommand{\CVAuthor}{Pavel Zakharov}
-\newcommand{\CVTitle}{Pavel Zakharov - CV}
-\newcommand{\CVNote}{CV compiled on {\today}}
+\newcommand{\CVAuthor}{Павел Захаров}
+\newcommand{\CVTitle}{Захаров Павел - резюме}
+\newcommand{\CVNote}{Резюме от {\today}}
 \newcommand{\CVWebpage}{https://github.com/PaulZakharov}
 
 % PDF settings and properties.
@@ -53,6 +53,7 @@ breaklinks}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
+
 %%%%%%%%%%%%%%%
 % TITLE BLOCK %
 %%%%%%%%%%%%%%%
@@ -71,77 +72,79 @@ breaklinks}
 \end{SubTitle}
 
 \begin{Body}
-\begin{large}
+
 %%%%%%%%%%%%%%%
 %% EDUCATION %%
 %%%%%%%%%%%%%%%
 
 \Section
-{Education}
-{Education}
+{Образование:}
+{Образование}
 {PDF:Education}
 
 \Entry
 \href{https://mipt.ru/}
-{\textbf{Moscow Institute of Physics and Technology}},
-Moscow, Russia
+{\textbf{Московский физико-технический институт}},
+Москва, Россия
+
 \Gap
 \BulletItem
 \href{https://mipt.ru/education/chairs/microprocessors/}
-{DREC, Section of microprocessor technologies}
+{ФРКТ, кафедра микропроцеccорных технологий}
 \hfill
 \DatestampYMD{2015}{09}{01} --
 \DatestampYMD{2019}{07}{01}
 \begin{Detail}
 \SubBulletItem
-Bachelor degree (with honors): Applied Mathematics and Physics
+Бакалавриат (диплом с отличием): прикладные математика и физика
 \SubBulletItem
-Thesis: Research into viability of application of spatial diversity in wireless sensor networks
+Тема диплома: Исследование возможности применения методов
+объединения пространственно разнесенных сигналов
+в беспроводных сенсорных сетях
 %\href{http://www.example.com/my-phd-thesis}
 %{A Statistical Approach to Quantifying Climate Change}
 \end{Detail}
 
 \BulletItem
 \href{https://mipt.ru/drec/about/bases/multimedia_technology_and_telecommunications/}
-{DREC, Section of multimedia technologies and telecommunications}
+{ФРКТ, кафедра мультимедийных технологий и телекоммуникаций}
 \hfill
-since \DatestampYMD{2019}{09}{01}
+с \DatestampYMD{2019}{09}{01}
 \begin{Detail}
 \SubBulletItem
-Master of Science: Applied Mathematics and Physics
+Магистратура: прикладные математика и физика 
 \SubBulletItem
-GPA: 9.2 out of 10
+Средний балл: 9.2 из 10
 \end{Detail}
-
 \Gap
 
 \Entry
 \href{https://yandexdataschool.ru/}
-{\textbf{The Yandex School of Data Analysis}},
-Moscow, Russia
-\Gap
-\BulletItem
-Track - Big data infrastructure
+{\textbf{Школа Анализа Данных, Яндекс}},
+Москва, Россия 
 \hfill
-since \DatestampYMD{2019}{09}{01}
+с \DatestampYMD{2019}{09}{01}
 \Gap
 \BulletItem
-Completed courses:
+Направление - Инфраструктура больших данных
+\Gap
+\BulletItem
+Пройденные курсы:
 \begin{Detail}
 \SubBulletItem
-Algorithms and data structures
+Алгоритмы и структуры данных
 \SubBulletItem
-Computer architecture and operating systems
+Архитектура компьютера и операционные системы
 \SubBulletItem
-Programming in C++
+Обучение языку C++
 \SubBulletItem
-Algorithms in external memory
+Алгоритмы во внешней памяти
 \SubBulletItem
-Programming in Golang
+Язык Go
 \SubBulletItem
-Cryptosystem strength pt.1
+Стойкость криптографических систем
 \SubBulletItem
-Distributed systems
+Распределенные системы
 \end{Detail}
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %% СOURSES %%
@@ -232,104 +235,110 @@ Distributed systems
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \Section
-{WORK EXPERIENCE}
-{WORK EXPERIENCE}
-{PDF:Work experience}
+{Опыт работы:}
+{Опыт работы}
+{PDF:Работа}
 
 \Entry
 \href{https://www.milandr.ru/}
-{\textbf{JSC "Milandr"}},
-Zelenograd, Moscow, Russia
+{\textbf{АО "ПКК Миландр"}},
+Зеленоград, Москва, Россия
 
 \Gap
 \BulletItem
-Research Intern,
-Software Development Department,
+Стажер-исследователь,
+отдел разработки ПО,
 \hfill
 \DatestampYMD{2017}{09}{01} -- 
 \DatestampYMD{2019}{08}{30}
 \newline
-Electronic Devices Design Center
+Центр разработки радиоэлектронной аппаратуры
 \begin{Detail}
 \SubBulletItem
-Research in the field of digital communications, signal processing
+Исследования в области цифровых коммуникационных систем, методов обработки сигналов
 \SubBulletItem
-Wireless system modeling in Simulink
+Моделирование радиосистем в Simulink
 \SubBulletItem
-Wireless system prototyping using SDR (USRP и LabVIEW)
+Прототипирование радиосистем с использованием SDR (USRP и LabVIEW)
 \SubBulletItem
-Experimental data processing: MATLAB, Python
+Обработка экспериментальных данных на MATLAB, Python
 \SubBulletItem
-Implementation of data processing algorithms for DSP: C
+Реализация алгоритмов обработки данных на DSP-процессорах, C
 \end{Detail}
 
 \Entry
 \href{https://mipt.ru/}
-{\textbf{Moscow Institute of Physics and Technology}},
-Moscow, Russia
+{\textbf{Московский физико-технический институт}},
+Москва, Россия
 
 \Gap
 \BulletItem
-Engineer,
+Инженер,
 \hfill
-since \DatestampYMD{2019}{12}{02}
+С \DatestampYMD{2019}{12}{02}
 \newline
 \href{http://labmst.ru/en/}
-{Laboratory of Multimedia Systems and Technologies}
+{Лаборатория мультимедийных систем и технологий}
 \begin{Detail}
 \SubBulletItem
-Developing of GUI for high-delay network data transfer applications, tuning and validation of network performance of these applications: C/C++
+Разработка графических интерфейсов для приложений передачи данных в сетях с высокими задержками, их настройка, валидация производительности: C/C++
 \SubBulletItem
-OFDM system model - receiver and transceiver, channel impairments modeling: MATLAB
+Модель приемника и передатчика OFDM, искажений в канале: MATLAB
 \SubBulletItem
-Analysis of DFT-S-OFDM performance in case of nonlinearities: MATLAB
-\SubBulletItem Multidimensional QAM constellation optimization: MATLAB
+Анализ возможности использования DFT-S-OFDM в условиях нелинейностей в канале: MATLAB
 \SubBulletItem
-HEVC encoding and decoding tasks: C/C++
+Оптимизация многомерных QAM-созвездий: MATLAB
+\SubBulletItem
+Декодирование, кодирование видео в формате HEVC, C/C++
 \end{Detail}
+
+%%%%%%%%%%%%%%%
+%% LANGUAGES %%
+%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%
 %% SKILLS %%
 %%%%%%%%%%%%
 
 \Section
-{Skills}
-{Skills}
-{PDF:Skills}
+{Навыки:}
+{Навыки}
+{PDF:Навыки}
 
 \BulletItem
-Programming Languages: C/C++, Golang, MATLAB
+Языки программирования: C/C++, Golang, MATLAB
 \BulletItem
-Utilities: {\LaTeX}, bash, Git
+Вспомогательные технологии: {\LaTeX}, bash, Git
 \BulletItem
-Languages: Russian (Native), English: (С1), German: (B1)
+Языки: русский, английский (С1), немецкий (B1)
+
 %%%%%%%%%%%%%%%
 %% INTERESTS %%
 %%%%%%%%%%%%%%%
 
 \Section
-{Interests}
-{Interests}
-{PDF:Interests}
+{О себе:}
+{О себе}
+{PDF:Осебе}
 \BulletItem
-Completed courses by Intel:
+Прошел курсы от Intel:
 \begin{Detail}
 \SubBulletItem
-Architectures and microarchitectures of processors
+Архитектуры и микроархитектуры универсальных компьютеров
 \SubBulletItem
-Fundamentals of software modeling of computers
+Основы программного моделирования ЭВМ
 \SubBulletItem
-Logic elements and VLSI design
+Логические элементы и проектирование СБИС
 \SubBulletItem
-Mathematical foundations of CAD of VLSI
+Математические основы САПР СБИС
 \end{Detail}
 \Gap
 \BulletItem
-Interests:
-Cycling, 
-skiing,
-fiction.
-\end{large}
+Интересы:
+Велосипед, 
+горные лыжи,
+литература.
+
 %%%%%%%%%%%%%%%%
 %% REFERENCES %%
 %%%%%%%%%%%%%%%%
@@ -517,8 +526,8 @@ fiction.
 %% CV NOTE %
 %%%%%%%%%%%%
 %
-\UseNoteFont%
-\null\hfill%
-[\textit{\CVNote}]
+%\UseNoteFont%
+%\null\hfill%
+%[\textit{\CVNote}]
 %
 \end{document}

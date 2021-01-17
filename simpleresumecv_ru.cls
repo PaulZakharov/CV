@@ -192,17 +192,18 @@ BoldItalicFont=FreeSerifBoldItalic]
 \newcommand{\TildeSymbol}{{\normalfont\char"007E}}
 
 % Headers and footers: Blank header, page number in footer.
-\AtEndDocument{\null\label{LastPage}}
-\newcommand{\PageKOfN}{{\UseHeaderFooterFont{Page}~\thepage~of~\pageref{LastPage}}}
-\newcommand{\DraftStamp}{{\UseHeaderFooterFont\color{red}DRAFT~\Timestamp}}
+%\AtEndDocument{\null\label{LastPage}}
+%\newcommand{\PageKOfN}{{\UseHeaderFooterFont{Стр.}%~\thepage~из~\pageref{LastPage}}}
+%\newcommand{\DraftStamp}{{\UseHeaderFooterFont\color{red}%DRAFT~\Timestamp}}
 
 \ifnum\TypesetInDraftMode=0
 \newcommand{\HeaderText}{}
-\newcommand{\FooterText}{\hfill\PageKOfN\hfill}
+%\newcommand{\FooterText}{\hfill\PageKOfN\hfill}
+\newcommand{\FooterText}{}
 \else
 \newcommand{\HeaderText}{}
 \newcommand{\FooterText}{\null\hphantom{\DraftStamp}\hfill%
-\PageKOfN\hfill%
+%\PageKOfN\hfill%
 \DraftStamp\null}
 \fi
 
